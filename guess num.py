@@ -7,8 +7,10 @@ while True:
     num = int(num)
     if num == a:
         print("答對了!")
+        print("這是你猜的第", count, "次")
         break
     elif num > a:
         print("再小一點")
     elif num < a:
         print("再大一點")
+    print("這是你猜的第", count, "次")
